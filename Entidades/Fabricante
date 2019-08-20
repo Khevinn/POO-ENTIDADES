@@ -1,0 +1,28 @@
+import java.util.Date;
+
+public class Fcelular {
+    String marca; 
+    String cor; 
+    Fabricante Fabricante;
+    String nome; 
+    String pais; 
+
+    public static void main(String[] args) {
+        
+        Fabricante a1 = new Fabricante();
+
+        a1.nome ="Cleyton da Silva";
+        a1.pais ="Brasil";
+
+        Fcelular c1 = new Fcelular();
+
+        c1.marca = "Xiaomi";
+        c1.cor = "Preta";
+
+        System.out.println("Marca da Celular: " + c1.marca);
+        System.out.println("Cor da Celular: " + c1.cor);
+        System.out.println("Nome do Fabricante: " + a1.nome);
+        System.out.println("Pais de Origem: " + a1.pais);
+    }
+
+}
