@@ -1,0 +1,15 @@
+public class Celular {
+    String marca; 
+    String modelo; 
+
+    public static void main(String[] args) {
+        Celular c1 = new Celular();
+
+        c1.marca = "Xiaomi";
+        c1.modelo = "Redmi note 7";
+
+        System.out.println("Marca do Celular: " + c1.marca);
+        System.out.println("modelo do Celular: " + c1.modelo);
+    }
+
+}
